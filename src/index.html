@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <script src="app.js" type="text/javascript"></script>
+    <title>Generador de Dominios</title>
+    <style>
+      .domain_generator,
+      h1 {
+        font-family: CerebriSans-Bold, -apple-system, BlinkMacSystemFont, Roboto,
+          sans-serif;
+        width: 200px;
+        margin: auto;
+        margin-top: 2%;
+        text-align: left;
+        color: rgb(62, 3, 90);
+        box-shadow: rgba(67, 19, 180, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        background-color: #c2fbd7;
+        border-radius: 50px;
+        border-width: 0;
+      }
+      h1 {
+        width: 400px;
+      }
+    </style>
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+    <div>
+      <h1 style="text-align:center;">EL GENERADOR DE DOMINIOS</h1>
+      <ul class="domain_generator"></ul>
     </div>
   </body>
 </html>
+<!-- <html>
+  <head>
+    <script src="app.js" type="text/javascript"></script>
+    <title>Generador de Dominios</title>
+    <style>
+      .domain_generator {
+        width: 200px;
+        margin: auto;
+        margin-top: 5%;
+        text-align: left;
+        color: red;
+      }
+    </style>
+  </head>
+  <div class="container">
+    <h1>Generador de dominios</h1>
+    <div id="domain_generator"></div>
+    <button class="btn btn-primary" id="generate">
+      Generate Another
+    </button>
+  </div>
+</html> -->
